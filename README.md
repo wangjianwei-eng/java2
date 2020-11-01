@@ -26,6 +26,12 @@
 * 6、在Test主类先对Teacher、Course、Student按照所设置有参的顺序进行赋值，将course对象里的内容赋值给student的setCourse方法，将student对象里的内容赋值给teacher的sett1方法。定义course类型的course，让其与course相关联，定义Teacher类型的t1，让其与teacher相关联。定义main属性，让其与course类相关联，输出课程信息。 
 
 ## 实验流程图
+* 选课流程
+
+![2](https://github.com/wangjianwei-eng/java2/blob/main/src/%E9%80%89%E8%AF%BE%E6%B5%81%E7%A8%8B.png)
+* 退课流程
+
+![3](https://github.com/wangjianwei-eng/java2/blob/main/src/%E9%80%80%E8%AF%BE%E6%B5%81%E7%A8%8B.png)
 ## 核心代码
 ### 选课部分代码
 ```java
@@ -53,5 +59,6 @@ public boolean addStudent(Student stu) {
 	}
  ```
 # 四、实验结果
+![1](https://github.com/wangjianwei-eng/java2/blob/main/src/%E6%8D%95%E8%8E%B7.JPG)
 # 五、实验感想
 * 通过这次实验掌握了类的继承用法，通过构造方法实例化对象，当有多个相似的类结构时使用类的继承，将重复的代码提取到父类，可以减少代码的重复性，学会了toString()的使用方法。
