@@ -28,7 +28,7 @@
 ## 实验流程图
 ## 核心代码
 ### 选课部分代码
-...java
+***java
 public boolean addStudent(Student stu) {
 		for (int i = 0; i < students.length; i++) {
 			if (students[i] == null) {
@@ -39,9 +39,9 @@ public boolean addStudent(Student stu) {
 		}
 		return false;
 	}
- ...
+ ***
 ### 退课部分代码
-...java
+***java
 	public boolean rmStudent(Student stu) {
 		for (int i = 0; i < students.length; i++) {
 			if (students[i] == stu) {
@@ -51,7 +51,7 @@ public boolean addStudent(Student stu) {
 		}
 		return false;
 	}
- ...
+ ***
 # 四、实验结果
 # 五、实验感想
 * 通过这次实验掌握了类的继承用法，通过构造方法实例化对象，当有多个相似的类结构时使用类的继承，将重复的代码提取到父类，可以减少代码的重复性，学会了toString()的使用方法。
