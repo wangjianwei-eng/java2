@@ -59,6 +59,6 @@ public boolean addStudent(Student stu) {
 	}
  ```
 # 四、实验结果
-![1](https://github.com/wangjianwei-eng/java2/blob/main/src/%E6%8D%95%E8%8E%B7.JPG)
+![1](https://github.com/wangjianwei-eng/java2/blob/main/src/%E6%8D%95%E8%8E%B71.JPG)
 # 五、实验感想
 * 通过这次实验掌握了类的继承用法，通过构造方法实例化对象，当有多个相似的类结构时使用类的继承，将重复的代码提取到父类，可以减少代码的重复性，学会了toString()的使用方法。
