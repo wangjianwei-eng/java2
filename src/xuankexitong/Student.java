@@ -22,7 +22,8 @@ public class Student extends Person {
 	public void selectclass(Course c) {
 		if (selectCourse != null) {
 			System.out.println(getName()+" 执行选课 "+getSelectCourse().getCourseName()+ " 已选课程，需要先退课!\n");
-			selectCourse.rmStudent(this);
+//			selectCourse.rmStudent(this);
+			this.rmclass();
 		}
 		if (c.addStudent(this)) {
 			this.selectCourse = c;
@@ -31,7 +32,7 @@ public class Student extends Person {
 			System.out.println(getName()+ " 执行选课 "+getSelectCourse().getCourseName()+  " 选课成功！\n");
 		}
 	}
-
+//设置学生退课对象
 	public void rmclass() {
 		if (selectCourse == null) {
 			System.out.println(getName()+ " 执行退课 "+" 退课失败！");
